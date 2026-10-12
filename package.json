@@ -1,0 +1,7 @@
+{
+  "name": "life-quest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node server.mjs", "build": "node scripts/build.mjs", "preview": "node server.mjs dist", "test": "node --test", "check": "node --check src/app.js && node --check src/engine.js && node --check src/scenarios.js && node --check server.mjs && node --check sw.js && node --check scripts/build.mjs && node --check scripts/generate-pwa-icons.mjs && node --check test/pwa.test.js && node --check test/service-worker.test.js" }
+}
